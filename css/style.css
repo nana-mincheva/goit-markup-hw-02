@@ -20,12 +20,6 @@
   --accent-font: 'Raleway' sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   color: var(--content-color);
   font-family: var(--main-font);
@@ -41,11 +35,7 @@ ul {
   list-style: none;
 }
 
-.link:visited {
-  color: inherit;
-}
-
-.link {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -54,9 +44,13 @@ ul {
 
 .logo {
   color: var(--logo-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192px;
+  letter-spacing: 0.03em;
 }
 
-.logo .web-logo {
+.web-logo {
   color: var(--accent-color);
 }
 
@@ -75,6 +69,10 @@ ul {
 .contacts .link {
   color: var(--content-color);
   cursor: pointer;
+}
+
+.current-page {
+  color: var(--accent-color);
 }
 
 /*HERO SECTION*/
