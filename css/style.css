@@ -21,6 +21,7 @@
 body {
   background-color: #fff;
   color: var(--content-color);
+  font-family: Roboto;
 }
 
 ul {
