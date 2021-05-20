@@ -5,6 +5,7 @@
 Текст под заголовками - #757575
 Текст подвал и hero-title #FFFFFF
 Фон шапки и подвала - #2F303A
+Кнопки в портфолио - #F5F4FA
 
 */
 :root {
@@ -14,6 +15,7 @@
   --content-color: #757575;
   --white-color: #ffffff;
   --background-color: #2f303a;
+  --button-color: #f5f4fa;
 }
 
 body {
@@ -114,4 +116,11 @@ ul {
 
 .footer-contacts .link {
   color: var(--white-color);
+}
+
+/*ПОРТФОЛИО*/
+
+.portfolio-btn {
+  background-color: var(--button-color);
+  color: var(--title-color);
 }
