@@ -119,7 +119,11 @@ ul {
   color: var(--white-color);
 }
 
-/*КНОПКИ ПОРТФОЛИО*/
+/*ПОРТФОЛИО*/
+
+.portfolio-title {
+  visibility: hidden;
+}
 
 .portfolio-btn {
   background-color: var(--button-color);
