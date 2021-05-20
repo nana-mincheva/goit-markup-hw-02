@@ -118,9 +118,15 @@ ul {
   color: var(--white-color);
 }
 
-/*ПОРТФОЛИО*/
+/*КНОПКИ ПОРТФОЛИО*/
 
 .portfolio-btn {
   background-color: var(--button-color);
   color: var(--title-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
