@@ -121,6 +121,11 @@ ul {
   color: var(--white-color);
 }
 
+.footer-contacts .link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
 /*ПОРТФОЛИО*/
 
 .portfolio-title {
