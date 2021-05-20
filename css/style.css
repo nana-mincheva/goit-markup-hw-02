@@ -40,6 +40,10 @@ a {
   color: inherit;
 }
 
+.current-page {
+  color: var(--accent-color);
+}
+
 /*Header Section*/
 
 .logo {
@@ -69,10 +73,6 @@ a {
 .contacts .link {
   color: var(--content-color);
   cursor: pointer;
-}
-
-.current-page {
-  color: var(--accent-color);
 }
 
 /*HERO SECTION*/
