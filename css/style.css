@@ -1,0 +1,117 @@
+/*
+Кнопки и всякие синенькие штучки - #2196F3
+Логотин - #000
+Заголовки - #212121
+Текст под заголовками - #757575
+Текст подвал и hero-title #FFFFFF
+Фон шапки и подвала - #2F303A
+
+*/
+:root {
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --title-color: #212121;
+  --content-color: #757575;
+  --white-color: #ffffff;
+  --background-color: #2f303a;
+}
+
+body {
+  background-color: #fff;
+  color: var(--content-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.link:visited {
+  color: var(--logo-color);
+}
+
+.footer a:visited {
+  color: var(--white-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*Логотип*/
+
+.logo {
+  color: var(--logo-color);
+}
+
+.logo .web-logo {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.footer-logo .web-logo {
+  color: var(--accent-color);
+}
+
+/*Панель навигации и контакты*/
+
+.nav .link {
+  color: var(--title-color);
+}
+
+.nav .link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--content-color);
+}
+
+.contacts .link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/*Секция HERO*/
+/*Ну здесь вместо background-color будет фоновая картинка?*/
+
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/*Основной контект страницы*/
+
+.studio-title {
+  color: var(--title-color);
+}
+
+.feature-title {
+  color: var(--title-color);
+}
+
+.name-title {
+  color: var(--title-color);
+}
+
+.project-title {
+  color: var(--title-color);
+}
+
+/*ПОДВАЛ*/
+
+.footer {
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+
+.footer-contacts .link {
+  color: var(--white-color);
+}
