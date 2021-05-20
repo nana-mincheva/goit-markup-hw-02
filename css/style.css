@@ -16,12 +16,14 @@
   --white-color: #ffffff;
   --background-color: #2f303a;
   --button-color: #f5f4fa;
+  --main-font: 'Roboto';
+  --accent-font: 'Raleway';
 }
 
 body {
   background-color: #fff;
   color: var(--content-color);
-  font-family: Roboto;
+  font-family: var(--main-font);
 }
 
 ul {
