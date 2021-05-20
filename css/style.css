@@ -16,8 +16,8 @@
   --white-color: #ffffff;
   --background-color: #2f303a;
   --button-color: #f5f4fa;
-  --main-font: 'Roboto';
-  --accent-font: 'Raleway';
+  --main-font: 'Roboto', sans-serif;
+  --accent-font: 'Raleway' sans-serif;
 }
 
 * {
@@ -27,7 +27,6 @@
 }
 
 body {
-  background-color: #fff;
   color: var(--content-color);
   font-family: var(--main-font);
   font-style: normal;
@@ -46,16 +45,12 @@ ul {
   color: inherit;
 }
 
-.footer a:visited {
-  color: var(--white-color);
-}
-
 .link {
   text-decoration: none;
   color: inherit;
 }
 
-/*LOGO*/
+/*Header Section*/
 
 .logo {
   color: var(--logo-color);
@@ -64,16 +59,6 @@ ul {
 .logo .web-logo {
   color: var(--accent-color);
 }
-
-.footer-logo {
-  color: var(--white-color);
-}
-
-.footer-logo .web-logo {
-  color: var(--accent-color);
-}
-
-/*MAIN MENU SECTION*/
 
 .nav .link {
   color: var(--title-color);
@@ -100,6 +85,7 @@ ul {
 
 .hero-title {
   color: var(--white-color);
+  text-align: center;
 }
 
 .hero-btn {
@@ -112,6 +98,7 @@ ul {
 
 .studio-title {
   color: var(--title-color);
+  text-align: center;
 }
 
 .feature-title {
@@ -127,6 +114,18 @@ ul {
 }
 
 /*FOOTER SECTION*/
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.footer-logo .web-logo {
+  color: var(--accent-color);
+}
+
+.footer a:visited {
+  color: var(--white-color);
+}
 
 .footer {
   color: var(--white-color);
