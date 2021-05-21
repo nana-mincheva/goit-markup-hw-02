@@ -18,8 +18,7 @@
   --background-color: #2f303a;
   --button-color: #f5f4fa;
   --main-font: 'Roboto', sans-serif;
-  --accent-font: 'Raleway' sans-serif;
-  --white-color-op: rgba(255, 255, 255, 0.6);
+  --accent-font: 'Raleway', sans-serif;
 }
 
 * {
@@ -60,6 +59,7 @@ a {
 
 .logo {
   color: var(--logo-color);
+  font-family: var(--accent-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -177,6 +177,7 @@ a {
 
 .footer-logo {
   color: var(--white-color);
+  font-family: var(--accent-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
